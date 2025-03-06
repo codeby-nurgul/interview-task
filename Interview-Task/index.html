@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Purchase UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Grid Purchasing</h1>
+    <div class="grid-container" id="grid"></div>
+    
+    <div class="popup" id="popup">
+        <p>Do you want to buy this domain?</p>
+        <button onclick="purchaseCell() ,window.location.href = 'payment.html'">Yes, Buy</button>
+        <button onclick="closePopup()">Cancel</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
